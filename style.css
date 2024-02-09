@@ -1,0 +1,80 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+h1{
+    font-family: Arial;
+    font-size: 4em;
+    color: rgb(92, 91, 91);
+    text-shadow: 2px 2px 2px black;
+}
+
+#container{
+    border: 3px solid;
+    border-radius: 50px;
+    font-size: 5em;
+    background-color: white;
+    padding: 20px;
+}
+
+#display{
+    font-weight: bold;
+    text-shadow: 1px 1px 2px;
+    font-family: monospace;
+}
+
+.btn{
+    border: none;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 7px;
+    color: white;
+    cursor: pointer;
+    transition: background-color .5s ease;
+}
+
+#startBtn{
+    background-color: hsl(120, 100%, 35%);
+}
+
+#startBtn:hover{
+    background-color: hsl(120, 100%, 50%);
+}
+
+#stopBtn{
+    background-color: hsl(0, 100%, 35%);
+}
+
+#stopBtn:hover{
+    background-color: hsl(0, 100%, 50%);
+}
+
+#resetBtn{
+    background-color: hsl(240, 85%, 35%);
+}
+
+#resetBtn:hover{
+    background-color: hsl(240, 100%, 50%);
+}
+
+#recordBtn{
+    background-color: hsl(180, 100%, 35%);
+}
+
+#recordBtn:hover{
+    background-color: hsl(180, 100%, 50%);
+}
+
+#records{
+    text-align: left;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.record{
+    border-bottom: 3px solid grey;
+    margin-right: 30px;
+    border-radius: 10px;
+}
